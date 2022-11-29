@@ -4,7 +4,7 @@ ld = ("last digit of ")
 number = random.randint(-10000, 10000)
 if number > 0:
     remainder = number % 10
-if number < 0:
+else:
     remainder = number % -10
 if remainder > 5:
     print("{}{} is {} and is greater than 5".format(ld, number, remainder))
