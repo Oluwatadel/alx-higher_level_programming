@@ -11,4 +11,4 @@ if remainder > 5:
 elif remainder == 0:
     print("{}{} is {} and is 0".format(ld, number, remainder))
 else:
-        print(f'{ld} {number} is {remainder} and is less than 6 and not 0')
+        print(f'{ld}{number} is {remainder} and is less than 6 and not 0')
