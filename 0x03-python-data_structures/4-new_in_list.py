@@ -4,4 +4,4 @@ def new_in_list(my_list, idx, element):
         return (my_list)
     l = [i for i in my_list]
     l[idx] = element
-    return l
+    return (l)
